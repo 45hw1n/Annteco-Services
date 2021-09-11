@@ -15,8 +15,6 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@formspree/react": "^2.2.3",
-    "axios": "^0.21.4",
     "bootstrap": "^5.1.0",
     "emailjs-com": "^3.2.0",
     "gatsby": "^3.13.0",
@@ -31,7 +29,6 @@
     "gatsby-source-graphql": "^3.13.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "react": "^16.14.0",
-    "react-airform": "^0.0.2",
     "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
