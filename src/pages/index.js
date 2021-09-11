@@ -3,13 +3,12 @@ import { StaticQuery, graphql } from "gatsby"
 import Hero from "./components/hero"
 import "../styles/styles.scss"
 import Navigation from "./components/navbar"
-import "./../../node_modules/bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css"
 import About from "./components/about-us"
 import Client from "./components/clients"
 import Block from "./components/block"
 import ReactHtmlParser from 'react-html-parser';
 import Cards from "./components/cards"
-import Testimonial from "./components/testimonial"
 import Footer from "./components/footer"
 
 const IndexPage = () => {
