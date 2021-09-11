@@ -1,0 +1,35 @@
+.hero{
+    display:flex;
+    padding:106px 16px;
+    margin: -56px 0 auto;
+    min-height: 500px;
+    align-items: center;
+
+    .wrapper {
+        align-items: center;
+        flex-direction:column;
+    }
+    .hero-text{
+        padding:24px 16px;
+        p {
+            margin: 16px 0;
+        }
+    }
+    .hero-img {
+        padding:24px 16px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        img{
+            max-width:inherit;
+        }
+    }
+
+    @media only screen and (min-width:768px) {
+        .wrapper {
+            flex-direction: row;
+        }
+    }
+}
+
+

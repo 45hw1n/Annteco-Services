@@ -1,0 +1,23 @@
+.about{
+    margin: 40px 0;
+    .wrapper{
+
+    }
+    .about-img{
+        padding:56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        img{
+            max-width:inherit;
+        }
+    }
+    .about-text {
+        padding:32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

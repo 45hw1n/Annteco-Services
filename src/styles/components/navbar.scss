@@ -1,0 +1,14 @@
+nav {
+    background: #F3F2EE;
+    img.logo{
+        width: 40px;
+    }
+    .nav-link {
+        a:hover{
+            color: #ff0055 !important;
+        }
+        a.active {
+            color: #ff0055;
+        }
+    }
+}

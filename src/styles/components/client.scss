@@ -1,0 +1,19 @@
+.client {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper {
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+        margin-bottom: 32px;
+    }
+    .client-img{
+        padding: 24px 0;
+        img {
+            max-width: inherit;
+        }
+    }
+}

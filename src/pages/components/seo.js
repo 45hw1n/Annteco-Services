@@ -1,0 +1,29 @@
+import React from "react"
+import { Helmet } from "react-helmet"
+// import Favicon from "./../../assets/images/favicon.png"
+
+function Seo(props) {
+    return (
+        <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>{props.title}</title>
+                <meta name="description" content={props.description} />
+                <meta name="keywords" content={props.keywords} />
+                <meta property="og:title" content={props.title} />
+                <meta property="og:description" content={props.description} />
+                {!!props.ogImage ? (
+                    <meta property="og:image" content={props.image} />
+                ) : null}
+                {/* {!!props.ogType ? (
+                    <meta property="og:type" content={props.ogType} />
+                ) : null} */}
+                <link rel="icon" type="image/png" sizes="16x16" href={props.favicon} />
+            </Helmet>
+
+
+        </>
+    )
+}
+
+export default Seo
