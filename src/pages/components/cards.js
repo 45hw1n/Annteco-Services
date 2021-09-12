@@ -11,7 +11,7 @@ const Cards = (props) => {
                         {props.img.map(
                             (el, idx) => {
                                 return (
-                                    <div className="col-lg-4 col-sm-6 mx-auto">
+                                    <div className="col-lg-4 col-sm-6 mx-auto" key={idx}>
                                         <div className="card">
                                             <div className="box">
                                                 <div className="content">
@@ -25,8 +25,6 @@ const Cards = (props) => {
                             }
                         )}
                     </div>
-
-
                 </div>
             </div>
         </>
