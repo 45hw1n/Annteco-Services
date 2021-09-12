@@ -13,9 +13,8 @@ const Client = (props) => {
                         {props.images.map(
                             (el, idx) => {
                                 return (
-                                    <div className="col-lg-3 col-6 client-img">
+                                    <div className="col-lg-3 col-6 client-img" key={idx}>
                                         <img src={el.url} alt="img" />
-                                        
                                     </div>
                                 )
                             }

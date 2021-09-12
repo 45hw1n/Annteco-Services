@@ -11,7 +11,7 @@ const Block = (props) => {
                     <div className="row wrapper">
                         <div className="col-12"> 
                             <h2 className="text-center mb-3">{props.heading}</h2>
-                            <p className="p18">{props.text}</p>
+                            <div className="p18">{props.text}</div>
                             <div className="child"> 
                                 {props.children}
                             </div>

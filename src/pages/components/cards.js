@@ -16,7 +16,7 @@ const Cards = (props) => {
                                             <div className="box">
                                                 <div className="content">
                                                     <img src={el.url} alt="Img" />
-                                                    <p>{ReactHtmlParser(props.text[idx].html)}</p>
+                                                    {ReactHtmlParser(props.text[idx].html)}
                                                 </div>
                                             </div>
                                         </div>

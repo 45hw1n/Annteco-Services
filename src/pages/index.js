@@ -97,7 +97,6 @@ const IndexPage = () => {
             {data.Anneteco.homes.map(home => {
               return (
                 <>
-
                   <Seo title={data.Anneteco.seos[0].title}
                     favicon={data.Anneteco.seos[0].image.url}
                     image={data.Anneteco.seos[0].image.url}
