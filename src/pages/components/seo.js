@@ -19,6 +19,8 @@ function Seo(props) {
                     <meta property="og:type" content={props.ogType} />
                 ) : null} */}
                 <link rel="icon" type="image/png" sizes="16x16" href={props.favicon} />
+                <script src="//code.tidio.co/lsuc0jtknw1h6n9ldbw0vqnotoqj3tcq.js" async></script>
+
             </Helmet>
 
 
