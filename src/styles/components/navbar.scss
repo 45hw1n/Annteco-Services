@@ -4,6 +4,10 @@ nav {
         width: 40px;
     }
     .nav-link {
+        cursor: pointer;
+        a{
+            text-decoration: none;
+        }
         a:hover{
             color: #ff0055 !important;
         }

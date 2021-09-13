@@ -27,7 +27,7 @@
     
         .card {
             position: relative;
-            width: 320px;
+            width: auto;
             height: 440px;
             box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
                 inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.05),
@@ -99,5 +99,14 @@
     .container .card:hover .box .content p {
         color: #fff;
     }
+
+    @media only screen and (min-width: 768px) {
+        .container {
+            .card{
+                width:320px;
+            }
+        }
+    }
+    
 }
 
