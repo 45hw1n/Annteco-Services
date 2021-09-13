@@ -7,8 +7,7 @@ const Cards = (props) => {
             <div className="custom-card">
                 <div className="container">
                     <div className="row">
-
-                        {props.img.map(
+                        {props?.img && props.img.map(
                             (el, idx) => {
                                 return (
                                     <div className="col-lg-4 col-sm-6 mx-auto" key={idx}>
