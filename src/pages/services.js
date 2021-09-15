@@ -37,7 +37,7 @@ const Service = () => {
               url
             }
             serviceLink
-            seos {
+            seo {
               title
               description
               keywords
@@ -54,16 +54,18 @@ const Service = () => {
                         {data.Anneteco.services.map(service => {
                             return (
                                 <div className="services" id="services" >
-                                    <Seo title={data.Anneteco.seos[0].title}
-                                        favicon={data.Anneteco.seos[0].image.url}
-                                        image={data.Anneteco.seos[0].image.url}
-                                        description={data.Anneteco.seos[0].description}
-                                        keywords={data.Anneteco.seos[0].keywords.map((el, idx) => {
+                                    <Seo title={service.seo.title}
+                                        favicon={service.seo.image.url}
+                                        image={service.seo.image.url}
+                                        description={service.seo.description}
+                                        keywords={service.seo.keywords.map((el, idx) => {
                                             return (
                                                 el
                                             )
                                         }
-                                        )} />
+                                        )} 
+                                        />
+                                        {/* {console.log(service.seos.title)} */}
                                     
                                     <Navigation logo="https://media.graphcms.com/output=format:png/WTnR1Ds7RX2FHLJJDALd?_ga=2.48276773.260733682.1631455073-1944968030.1619514357" />
                                     

@@ -37,6 +37,7 @@ const About = () => {
               }
             }
           }
+
         }
       }
     `}
@@ -45,16 +46,17 @@ const About = () => {
             {data.Anneteco.contactUses.map(contact => {
               return (                
                 <div className="cnt" id="contact" >
-                  <Seo title={data.Anneteco.seo[0].title}
-                    favicon={data.Anneteco.seo.image[0].url}
-                    image={data.Anneteco.seo.image[0].url}
-                    description={data.Anneteco.seo[0].description}
-                    keywords={data.Anneteco.seo[0].keywords.map((el, idx) => {
+                  <Seo title={contact.seo.title}
+                    favicon={contact.seo.image.url}
+                    image={contact.seo.image.url}
+                    description={contact.seo.description}
+                    keywords={contact.seo.keywords.map((el, idx) => {
                       return (
                         el
                       )
                     }
                     )} />
+                    
                   <Navigation logo="https://media.graphcms.com/output=format:png/WTnR1Ds7RX2FHLJJDALd?_ga=2.48276773.260733682.1631455073-1944968030.1619514357" />
                   <Hero backgroundColor={contact.heroBackgroundColor}
                     backgroundImage={contact.heroBackgroundImage}

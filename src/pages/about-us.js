@@ -32,7 +32,7 @@ const About = () => {
                         image{
                             url
                         }
-                        seos{
+                        seo{
                             title
                             description
                             keywords
@@ -49,16 +49,16 @@ const About = () => {
                         {data.Anneteco.aboutUses.map(about => {
                             return (
                                 <div className="abt" id="about" >
-                                    {/* <Seo title={data.Anneteco.seos.title}
-                                        favicon={data.Anneteco.seos[0].image.url}
-                                        image={data.Anneteco.seos[0].image.url}
-                                        description={data.Anneteco.seos[0].description}
-                                        keywords={data.Anneteco.seos[0].keywords.map((el, idx) => {
+                                    <Seo title={about.seo.title}
+                                        favicon={about.seo.image.url}
+                                        image={about.seo.image.url}
+                                        description={about.seo.description}
+                                        keywords={about.seo.keywords.map((el, idx) => {
                                             return (
                                                 el
                                             )
                                         }
-                                        )} /> */}
+                                        )} />
                                     <Navigation logo="https://media.graphcms.com/output=format:png/WTnR1Ds7RX2FHLJJDALd?_ga=2.48276773.260733682.1631455073-1944968030.1619514357" />
                                     <Hero backgroundColor={about.heroBackgroundColor}
                                         backgroundImage={about.heroBackgroundImage}
