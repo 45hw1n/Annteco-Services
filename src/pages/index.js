@@ -120,7 +120,6 @@ const IndexPage = () => {
                   {
                     home.isAboutUsVisible === "Yes" ?
                       <About
-                        id="about"
                         backgroundColor={home.aboutUsBackgroundColor}
                         heading={home.aboutUsHeading}
                         aboutImg={home.aboutUsImage.url}
@@ -139,7 +138,7 @@ const IndexPage = () => {
 
                   {
                     home.isServicesVisible === "Yes" ?
-                      <div id="services">
+                      <div >
                         <Block
                           backgroundColor={home.servicesBackgroundColor}
                           heading={home.serviceHeading}

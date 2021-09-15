@@ -5,12 +5,12 @@ const Hero = (props) => {
     return (
         <>
             <div className={`hero ${props.className}`}
-                style={{ background: props.backgroundColor }}
+                style={{ backgroundColor: props.backgroundColor , backgroundImage:props.backgroundImage}}
             >
                 <Container>
                     <div className="row wrapper">
                         <div className="col-lg-6 col-sm-12 hero-text">
-                            <h2 className="mb-5">{props.heading}</h2>
+                            <h1 className="mb-5">{props.heading}</h1>
                             <p className="p24 mb-5">{props.subHeading}</p>
                         </div>
                         <div className="col-lg-6 col-sm-12 hero-img">
