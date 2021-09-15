@@ -58,27 +58,6 @@ const IndexPage = () => {
               serviceDescription {
                 html
               }
-              isTestimonialVisible
-              testimonialHeading
-              testimonialBackgroundColor
-              testimonials {
-                html
-              }
-              testimonialImages {
-                url
-              }
-              isFooterVisible
-              footerHeading
-              footerText {
-                html
-              }
-              footerImage {
-                url
-              }
-              address{
-                html
-              }
-              phoneNo
             }
             seos{
               title
@@ -153,18 +132,7 @@ const IndexPage = () => {
 
                       : null
                   }
-                  {
-                    home.isFooterVisible === "Yes" ?
-                      <div id="contact">
-                        <Footer heading={home.footerHeading}
-
-                          img={home.footerImage.url}
-                          address={ReactHtmlParser(home.address.html)}
-                          phno={home.phoneNo} />
-                      </div>
-
-                      : null
-                  }
+                  <Footer />
                 </>
               )
             })}
