@@ -14,24 +14,18 @@ const Navigation = (props) => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <div className="nav-link">
-                                <Link activeClass="active" to="/about-us" spy={true} smooth={true} offset={-50} duration={400}>
-                                    About Us
-                                </Link>
+                                <a href="/about-us">About Us</a>
                             </div>
-                            <div className="nav-link">
+                            {/* <div className="nav-link">
                                 <Link activeClass="active" to="client" spy={true} smooth={true} offset={-50} duration={400}>
                                     Clients
                                 </Link>
+                            </div> */}
+                            <div className="nav-link">
+                                <a href="/services">Services</a>
                             </div>
                             <div className="nav-link">
-                                <Link activeClass="active" to="/services" spy={true} smooth={true} offset={0} duration={400}>
-                                    Services
-                                </Link>
-                            </div>
-                            <div className="nav-link">
-                                <Link activeClass="active" to="/contact-us" spy={true} smooth={true} offset={0} duration={400}>
-                                    Contact Us
-                                </Link>
+                                <a href="/contact-us">Contact Us</a>
                             </div>
                         </Nav>
                     </Navbar.Collapse>

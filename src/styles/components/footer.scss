@@ -2,6 +2,16 @@
     // .wrapper {
     //     padding:0 32px;
     // }
+    img.ftr-logo {
+        width: 60px;
+        height: 60px;
+        display: inline-flex;
+    }
+    h2.ftr-cmpny{
+        display: inline-flex;
+        line-height: 0;
+        margin-left: 14px;
+    }
     .left{
         display: flex;
         justify-content: space-evenly;
@@ -14,10 +24,8 @@
     .right{
         display: flex;
         padding: 0 16px;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: column;
-        align-items: center;
-
     }    
     .ftr-img{
             width: 300px;
