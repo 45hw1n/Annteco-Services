@@ -6,6 +6,7 @@ import Navigation from './components/navbar'
 import { Container } from 'react-bootstrap';
 import ContactForm from './components/form'
 import Seo from './components/seo';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const About = () => {
   return (

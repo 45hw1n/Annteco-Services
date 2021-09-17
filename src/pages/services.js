@@ -7,6 +7,7 @@ import Footer from './components/footer';
 import Block from './components/block'
 import Cards from './components/cards'
 import Seo from './components/seo';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Service = () => {
     return (

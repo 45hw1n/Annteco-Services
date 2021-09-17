@@ -6,6 +6,7 @@ import Navigation from './components/navbar'
 import BlockLeft from './components/block-left'
 import Footer from './components/footer';
 import Seo from './components/seo';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const About = () => {
     return (
