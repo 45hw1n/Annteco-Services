@@ -3,6 +3,29 @@ nav {
     img.logo{
         width: 40px;
     }
+    button.navbar-toggler.collapsed{
+        outline: none;
+        span.navbar-toggler-icon{
+            width: 30px;
+            background-image: 
+            url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+        }
+    }
+    button.navbar-toggler{
+        outline: none;
+        span.navbar-toggler-icon{
+            background-image: 
+            url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMSAxTDExIDExIiBzdHJva2U9IiMxNzA0MjYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTEgMUwxIDExIiBzdHJva2U9IiMxNzA0MjYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=);
+            width:20px;
+        }
+    }
+    button.navbar-toggler{
+        border:none;
+        &:active{
+            border:none;
+            color: transparent;
+        }
+    }
     .nav-link {
         cursor: pointer;
         a{

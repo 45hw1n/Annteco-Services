@@ -48,9 +48,9 @@ const ContactForm = () => {
 
                     <div className="form-group">
                         <label >Comment</label>
-                        <input type="text" name="message" className="form-control" placeholder="Comment" required="required" style={{ height: "100px" }} />
+                        <textarea  type="text" name="message" className="form-control" placeholder="Comment" required="required" style={{ height: "160px" }} />
                     </div>
-                    <button type="submit" className="btn btn-primary">
+                    <button type="submit" className="btn btn-primary mt-2">
                         Submit
                     </button>
 
@@ -71,7 +71,7 @@ const ContactForm = () => {
                         <h4 className="alert-heading">Thanks for your response !</h4>
                         <hr/>
                         <p>We recieved your response. Our team will reach out to you shortly and would Discuss about the requirements</p>
-                            <a className="mt-3 pt-2 mb-0 back" onClick={back} >Take me back > </a>
+                            <a className="mt-3 pt-2 mb-0 back" onClick={back} >Take me back &gt; </a>
                     </div>
             }
         </div>
