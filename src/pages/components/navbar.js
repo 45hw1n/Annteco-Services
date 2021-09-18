@@ -8,11 +8,14 @@ const Navigation = (props) => {
             {/* <div className="navigation"> */} 
             <Navbar className="navigation" sticky="top" bg="custom" expand="lg">
                 <Container className="h-100">
-                    <Navbar.Brand>
+                    <Navbar.Brand href="/">
                         <img className="logo" src={props.logo} alt="logo" /> Annteco Services</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
+                        <div className="nav-link">
+                                <a href="/">Home</a>
+                            </div>
                             <div className="nav-link">
                                 <a href="/about-us">About Us</a>
                             </div>
