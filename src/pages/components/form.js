@@ -56,16 +56,22 @@ const ContactForm = () => {
 
                 </form> :
 
-                    <div class="main-container">
-                        <div class="check-container">
-                            <div class="check-background">
-                                <svg viewBox="0 0 65 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7 25L27.3077 44L58.5 7" stroke="white" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </div>
-                            <div class="check-shadow"></div>
-                            <button className="btn btn-primary mt-4" onClick={back}>Go Back</button>
-                        </div>
+                    // <div class="main-container">
+                    //     <div class="check-container">
+                    //         <div class="check-background">
+                    //             <svg viewBox="0 0 65 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    //                 <path d="M7 25L27.3077 44L58.5 7" stroke="white" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+                    //             </svg>
+                    //         </div>
+                    //         <div class="check-shadow"></div>
+                    //         <button className="btn btn-primary mt-4" onClick={back}>Go Back</button>
+                    //     </div>
+                    // </div>
+                    <div className="alert alert-success" role="alert">
+                        <h4 className="alert-heading">Thanks for your response !</h4>
+                        <hr/>
+                        <p>We recieved your response. Our team will reach out to you shortly and would Discuss about the requirements</p>
+                            <a className="mt-3 pt-2 mb-0 back" onClick={back} >Take me back > </a>
                     </div>
             }
         </div>
