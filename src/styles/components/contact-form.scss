@@ -1,6 +1,6 @@
 .cn-form {
-    margin: 24px;
-    padding:24px;
+    margin: 24px 0;
+    padding:24px 0;
     label{
         margin-bottom: 4px;
     }
@@ -135,4 +135,8 @@
     
 
     // END OF TICK
+    @media only screen and (min-width:768px){
+        margin: 24px ;
+        padding:24px ;
+    }
 }

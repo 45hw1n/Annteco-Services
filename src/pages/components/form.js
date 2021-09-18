@@ -19,7 +19,7 @@ const ContactForm = () => {
     }
 
     const back = () => {
-        setOk(false)
+        setOk(true)
         console.log(ok)
     }
 

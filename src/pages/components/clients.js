@@ -15,7 +15,6 @@ const Client = (props) => {
                                 return (
                                     <div className="col-lg-3 col-6 client-img" key={idx}>
                                         <img src={el.url} alt="img" />
-                                        {console.log(el)}
                                     </div>
                                 )
                             }
