@@ -21,7 +21,7 @@ nav {
     }
     button.navbar-toggler{
         border:none;
-        &:active{
+        &:active,&:focus{
             border:none;
             color: transparent;
         }
