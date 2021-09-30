@@ -19,7 +19,7 @@ const IndexPage = () => {
                 landingImage {
                   url(
                     transformation: { document: { output: { format: webp } } }
-                  )
+                  ) 
                 }
               }
               seos {
