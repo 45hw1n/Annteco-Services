@@ -44,9 +44,6 @@ const Service = () => {
                   url
                 }
                 serviceLink
-                serviceImage {
-                  url
-                }
                 seo {
                   title
                   description
@@ -72,7 +69,6 @@ const Service = () => {
                       return el;
                     })}
                   />
-                  {/* {console.log(service.seos.title)} */}
 
                   <Navigation />
                   <Social />
@@ -91,7 +87,7 @@ const Service = () => {
                   >
                     <div className="d-flex align-items-center">
                       <img
-                        src={service.serviceImage.url}
+                        src="https://media.graphcms.com/VCL68jGNTXOaXVGObCg2"
                         style={{
                           width: '100%',
                           objectFit: 'contain',
@@ -107,6 +103,7 @@ const Service = () => {
                       text={service.serviceDescription}
                     />
                   </Block>
+                  
 
                   <Footer />
                 </div>

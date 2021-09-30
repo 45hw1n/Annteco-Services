@@ -15,13 +15,6 @@ const IndexPage = () => {
         query={graphql`
           {
             Anneteco {
-              homes {
-                landingImage {
-                  url(
-                    transformation: { document: { output: { format: webp } } }
-                  ) 
-                }
-              }
               seos {
                 title
                 description
@@ -35,31 +28,26 @@ const IndexPage = () => {
         `}
         render={(data) => (
           <>
-            {data.Anneteco.homes.map((home) => {
-              return (
-                <>
-                  <Seo
-                    title={data.Anneteco.seos[0].title}
-                    image={data.Anneteco.seos[0].image.url}
-                    description={data.Anneteco.seos[0].description}
-                    keywords={data.Anneteco.seos[0].keywords.map((el, idx) => {
-                      return el;
-                    })}
-                  />
-                  <Navigation />
-                  <Social />
+            <>
+              <Seo
+                title={data.Anneteco.seos[0].title}
+                image={data.Anneteco.seos[0].image.url}
+                description={data.Anneteco.seos[0].description}
+                keywords={data.Anneteco.seos[0].keywords.map((el, idx) => {
+                  return el;
+                })}
+              />
+              <Navigation />
+              <Social />
 
-                  
-                    <Hero
-                      className="landing"
-                      heroImg={home.landingImage.url}
-                    />
-                  
+              <Hero
+                className='landing'
+                heroImg='https://media.graphcms.com/output=format:webp/KRAxJi3SHq0iPKqdODO1'
+              />
 
-                  <Footer />
-                </>
-              );
-            })}
+              {/* <Footer /> */}
+            </>
+            );
           </>
         )}
       />
