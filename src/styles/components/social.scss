@@ -1,0 +1,35 @@
+.social{
+  .container{
+    padding: 18px 12px;
+    display: flex;
+    justify-content: flex-end;
+    img.scl-img{
+      width: 40px;
+      margin-right: 8px;
+    }
+    a{
+      text-decoration: none;
+
+    }
+    p.p16{
+      display: none;
+      margin-right: 8px;
+      color:#212529;
+      &:hover{
+        color:#ff0055;
+      }
+    }
+    .phn,.wa,.mail{
+      margin-right: 12px;
+    }
+  }
+  @media only screen and (min-width:768px) {
+    .container{
+      p.p16{
+        display: inline-flex;
+        margin-right: 8px;
+      }
+    }
+
+  }
+}

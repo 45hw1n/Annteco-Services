@@ -1,8 +1,5 @@
-.about{
+.abt{
     margin: 40px 0;
-    .wrapper{
-
-    }
     .about-img{
         padding:56px;
         display: flex;
@@ -20,4 +17,18 @@
         justify-content: center;
         margin: 0 auto;
     }
+    .block-left {
+        h5 {
+          line-height: 40px;
+        }
+      }
+      .block {
+        .child {
+          display: flex;
+          justify-content: center;
+        }
+        .accordion.accordion-flush {
+          max-width: 800px;
+        }
+      }
 }
