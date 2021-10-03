@@ -85,7 +85,7 @@ const Service = () => {
                     heading={service.title}
                     text={ReactHtmlParser(service.content.html)}
                   >
-                    <div className="d-flex align-items-center">
+                    {/* <div className="d-flex align-items-center">
                       <img
                         src="https://media.graphcms.com/VCL68jGNTXOaXVGObCg2"
                         style={{
@@ -97,7 +97,7 @@ const Service = () => {
                         }}
                         alt='img'
                       />
-                    </div>
+                    </div> */}
                     <Cards
                       img={service.serviceIcons}
                       text={service.serviceDescription}

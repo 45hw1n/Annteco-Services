@@ -9,7 +9,7 @@ import Footer from './components/footer';
 import Seo from './components/seo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Social from './components/social';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Row, Col } from 'react-bootstrap';
 const About = () => {
   return (
     <>
@@ -79,8 +79,8 @@ const About = () => {
                     image={about.image.url}
                   />
 
-                  <Block>
-                    <Accordion defaultActiveKey='0' flush>
+                  <div className='mv mx-auto'>
+                    {/* <Accordion defaultActiveKey='0' flush>
                       <Accordion.Item eventKey='0'>
                         <Accordion.Header>
                           <h2>MISSION</h2>
@@ -102,8 +102,30 @@ const About = () => {
                           business capabilities. </p>
                         </Accordion.Body>
                       </Accordion.Item>
-                    </Accordion>
-                  </Block>
+                    </Accordion> */}
+                    <Row>
+                      <Col className='mb-3'>
+                        <h2 className='mb-2'>MISSION</h2>
+                        <p className='p20'>
+                          Delivering innovative and reliable solutions to help
+                          the client provide efficient services in a cost
+                          effective manner with utmost quality and unwavering
+                          ethics.{' '}
+                        </p>
+                      </Col>
+                    </Row>
+
+                    <Row>
+                      <Col className='mb-3'>
+                        <h2 className='mb-2'>VISION</h2>
+                        <p className='p20'>
+                          To become a prime performer in the global marketplace
+                          by offering advanced strategy driven technology and
+                          business capabilities.{' '}
+                        </p>
+                      </Col>
+                    </Row>
+                  </div>
 
                   <Footer />
                 </div>

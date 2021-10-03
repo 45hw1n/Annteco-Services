@@ -21,13 +21,19 @@
           line-height: 40px;
         }
       }
-      .block {
-        .child {
-          display: flex;
-          justify-content: center;
-        }
-        .accordion.accordion-flush {
-          max-width: 800px;
-        }
+      // .block {
+      //   .child {
+      //     display: flex;
+      //     justify-content: center;
+      //   }
+      //   .accordion.accordion-flush {
+      //     max-width: 800px;
+      //   }
+      // }
+      .mv{
+        padding: 80px 20px;
+        display:flex;
+        flex-direction: column;
+        max-width: 800px;
       }
 }

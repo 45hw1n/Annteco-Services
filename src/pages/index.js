@@ -42,7 +42,8 @@ const IndexPage = () => {
 
               <Hero
                 className='landing'
-                heroImg='https://media.graphcms.com/output=format:webp/KRAxJi3SHq0iPKqdODO1'
+                heroImg='https://media.graphcms.com/output=format:webp/0OdeGco2ToWTA8sNLKYc'
+                
               />
 
               {/* <Footer /> */}
