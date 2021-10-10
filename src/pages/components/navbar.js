@@ -11,7 +11,7 @@ const Navigation = (props) => {
           <Navbar.Brand href='/'>
             <img
               className='logo'
-              src='https://media.graphcms.com/output=format:webp/itXTBtzTRC8bioA9XWg2'
+              src='https://media.graphcms.com/799B4PgwSIylds51WR5H'
               alt='logo'
             />
           </Navbar.Brand>

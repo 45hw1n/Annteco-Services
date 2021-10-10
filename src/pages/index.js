@@ -41,8 +41,7 @@ const IndexPage = () => {
               <Social />
 
               <Hero
-                className='landing'
-                heroImg='https://media.graphcms.com/output=format:webp/zyR0UVsiRxeN8QlpS5E2'
+                className='landing'        
               />
 
               {/* <Footer /> */}

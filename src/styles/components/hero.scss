@@ -29,14 +29,17 @@
         }
     }
     &.landing{
-        min-height: 100vh;
+        min-height: 80vh;
+        background-image: url("https://media.graphcms.com/output=format:webp/xd2ghqOSYK8k1qguZVoQ") !important;
     }
     @media only screen and (min-width:768px) {
         min-height: 75vh;
         &.landing{
+            background-image: url("https://media.graphcms.com/output=format:webp/lqAHzPHGSEuzOkHgi8cE") !important;
             min-height: 100vh;
         }
         .wrapper {
+            
             flex-direction: row;
         }
     }

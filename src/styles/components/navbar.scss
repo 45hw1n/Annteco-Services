@@ -1,7 +1,10 @@
 nav {
     background: #F3F2EE;
+    .container{
+        max-width: 100%;
+    }
     img.logo{
-        width: 100px;
+        width: 200px;
     }
     button.navbar-toggler.collapsed{
         outline: none;
