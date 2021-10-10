@@ -9,7 +9,7 @@ import Footer from './components/footer';
 import Seo from './components/seo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Social from './components/social';
-import { Accordion, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 const About = () => {
   return (
     <>
@@ -78,54 +78,32 @@ const About = () => {
                     text={ReactHtmlParser(about.content.html)}
                     image={about.image.url}
                   />
+                  <Container>
+                    <div className='mv'>
+                      <Row>
+                        <Col className='mb-3'>
+                          <h2 className='mb-2'>MISSION</h2>
+                          <p className='p20'>
+                            Delivering innovative and reliable solutions to help
+                            the client provide efficient services in a cost
+                            effective manner with utmost quality and unwavering
+                            ethics.{' '}
+                          </p>
+                        </Col>
+                      </Row>
 
-                  <div className='mv mx-auto'>
-                    {/* <Accordion defaultActiveKey='0' flush>
-                      <Accordion.Item eventKey='0'>
-                        <Accordion.Header>
-                          <h2>MISSION</h2>
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          <p className="p20">Delivering innovative and reliable solutions to help
-                          the client provide efficient services in a cost
-                          effective manner with utmost quality and unwavering ethics. </p>
-                          
-                        </Accordion.Body>
-                      </Accordion.Item>
-                      <Accordion.Item eventKey='1'>
-                        <Accordion.Header>
-                          <h2>VISION</h2>
-                        </Accordion.Header>
-                        <Accordion.Body>
-                        <p className="p20">To become a prime performer in the global marketplace
-                          by offering advanced strategy driven technology and
-                          business capabilities. </p>
-                        </Accordion.Body>
-                      </Accordion.Item>
-                    </Accordion> */}
-                    <Row>
-                      <Col className='mb-3'>
-                        <h2 className='mb-2'>MISSION</h2>
-                        <p className='p20'>
-                          Delivering innovative and reliable solutions to help
-                          the client provide efficient services in a cost
-                          effective manner with utmost quality and unwavering
-                          ethics.{' '}
-                        </p>
-                      </Col>
-                    </Row>
-
-                    <Row>
-                      <Col className='mb-3'>
-                        <h2 className='mb-2'>VISION</h2>
-                        <p className='p20'>
-                          To become a prime performer in the global marketplace
-                          by offering advanced strategy driven technology and
-                          business capabilities.{' '}
-                        </p>
-                      </Col>
-                    </Row>
-                  </div>
+                      <Row>
+                        <Col className='mb-3'>
+                          <h2 className='mb-2'>VISION</h2>
+                          <p className='p20'>
+                            To become a prime performer in the global
+                            marketplace by offering advanced strategy driven
+                            technology and business capabilities.{' '}
+                          </p>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Container>
 
                   <Footer />
                 </div>
