@@ -10,21 +10,21 @@ const Social = () => {
       <div className='social'>
         <Container className="scl">
           <div className="wa">
-            <a href="www.whatsapp.com">
+            <a href="https://wa.me/971508164508">
               <img className='scl-img'src={WA} alt="whatsapp"/>
             </a>
           </div>
           <div className="phn">
             <a  href="tel: 99999 99999">
               <img className='scl-img'src={PHN} alt="phone"/>
-              <p className="p16">+91 99999 99999</p>
+              <p className="p16">+971 502293295</p>
             </a>
           </div>
 
           <div className="mail">
-            <a  href="mailto:anneteco.cms@gmail.com">
+            <a  href="mailto: info@annteco.com">
               <img className='scl-img'src={MA} alt="whatsapp"/>
-              <p className="p16">anneteco.cms@gmail.com</p>
+              <p className="p16"> info@annteco.com</p>
             </a>
           </div>
           

@@ -1,7 +1,7 @@
 .about {
   margin: 40px 0;
   .about-img {
-    padding: 56px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,5 +16,11 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 768px) {
+  .about-img {
+      padding: 56px;
+    }
   }
 }
