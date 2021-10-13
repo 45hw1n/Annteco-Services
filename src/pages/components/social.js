@@ -15,7 +15,7 @@ const Social = () => {
             </a>
           </div>
           <div className="phn">
-            <a  href="tel: 99999 99999">
+            <a  href="tel: +971502293295<">
               <img className='scl-img'src={PHN} alt="phone"/>
               <p className="p16">+971 502293295</p>
             </a>
